@@ -1,10 +1,6 @@
-import java.util.Scanner;
 import javax.swing.JOptionPane;
-
-
 public class menu{
 
-    Scanner entrada = new Scanner(System.in);
 
 
     //Creación de un menu.
@@ -28,8 +24,9 @@ public class menu{
             case 1:
                 
                 do{
-                    CalcuEdad obj=new CalcuEdad();
-                    obj.CalcuEdad();
+                    Edad obj=new Edad();
+                    obj.edad();
+                    obj.calculo();
                     letra = JOptionPane.showInputDialog("Quieres repetir el programa?, escriba si").charAt(0);
                 }while(letra == 's');
             break;
@@ -37,8 +34,9 @@ public class menu{
             case 2:
                 
                 do{
-                    Area obj=new Area();
-                    obj.Area();
+                    Figuras obj1=new Figuras();
+                    obj1.figuras();
+                    obj1.calcular();
                     letra = JOptionPane.showInputDialog("Quieres repetir el programa?, escriba si").charAt(0);
                 }while(letra == 's');
             break;  
@@ -46,8 +44,9 @@ public class menu{
             case 3:
                
             do{
-                Llamadas obj=new Llamadas();
-                obj.Llamadas();
+                Llamadas obj2=new Llamadas();
+                obj2.datos();
+                obj2.operaciones();
                 letra = JOptionPane.showInputDialog("Quieres repetir el programa?, escriba si").charAt(0);
             }while(letra == 's');
             break;

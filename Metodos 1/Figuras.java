@@ -13,7 +13,7 @@ public class Figuras{
     private double pi=3.14;
 
     
-    public void Figuras(){
+    public void figuras(){
        
         opcion = Integer.parseInt(JOptionPane.showInputDialog("1.-Quieres el area y perimetro de un Cuadrado\n2.-Quieres el area y perimetro de un Rectangulo\n3.-Quieres el area y perimetro de un Triangulo\n4.-Quieres el area y perimetro de un Circulo"));
              

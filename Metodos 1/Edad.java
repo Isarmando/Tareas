@@ -2,12 +2,6 @@ import javax.swing.JOptionPane;
 
 
 public class Edad{
-
-    
-        
-    
-        
-   
         //variables 
         private int dia, mes, ano;
         private int diaA,mesA,anoA;
